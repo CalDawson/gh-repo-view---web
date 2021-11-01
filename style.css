@@ -1,0 +1,102 @@
+body {
+   background-color: #DFD8CA;
+   font-family: Times, serif;
+   color: rgb(10, 10, 10);
+   font-size: 24px;
+   line-height: 8px;
+}
+
+h1 {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  line-height: 8px;
+  padding: 16px;
+}
+
+a {
+  color: #105652;
+  text-decoration: none;
+}
+
+.container {
+  width: 100px;
+  margin: 0 auto;
+}
+
+.card {
+  background: none;
+  border: olive;
+  border-radius: 20%;
+  box-shadow: orchid;
+}
+
+p {
+  font-size: 24px;
+  padding: 24px;
+  line-height: 24px;
+  align-items: stretch;
+}
+
+#logo {
+  width: 128px;
+  align-self: center;
+}
+
+.container {
+  border: 2px solid white;
+  width: 550px;
+  height: 550px;
+  border-radius: 50px;
+  box-shadow: 2px, 2px, 5px, blue;
+  text-align: center;
+  background: white;
+}
+
+#blue-btn {
+  border: 1px solid blue;
+  background:  blue;
+  color: white;
+  text-align: center;
+  border-radius: 8px;
+  padding: 24px;
+}
+.card {
+  margin: 100px;
+  text-align: center;
+  width: 400px;
+  border: 2px solid white;
+  height: 150px;
+  border-radius: 50px;
+  box-shadow: 2px, 2px, 5px, blue;
+  background: white;
+  margin: 50px auto;
+}
+
+h2 {
+  text-align:  center;
+}
+.list_inline li {
+  display: inline;
+  padding: 24px;
+  list-style: none;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
